@@ -1,5 +1,6 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/namiltd/bootstrap-ie/master/LICENSE)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/namiltd)
+[![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie.svg)](https://www.npmjs.com/package/bootstrap-ie)
 [![](https://data.jsdelivr.com/v1/package/gh/namiltd/bootstrap-ie/badge)](https://www.jsdelivr.com/package/gh/namiltd/bootstrap-ie)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
