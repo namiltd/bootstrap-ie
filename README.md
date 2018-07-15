@@ -1,7 +1,6 @@
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-ie8/master/LICENSE)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/coliff)
-[![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie8.svg)](https://www.npmjs.com/package/bootstrap-ie8)
-[![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/namiltd/bootstrap-ie8/master/LICENSE)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/namiltd)
+[![](https://data.jsdelivr.com/v1/package/gh/namiltd/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/namiltd/bootstrap-ie8)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 # Bootstrap 4 for IE8 and IE9
@@ -18,12 +17,12 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if IE 9]>
       <link href="css/bootstrap-ie9.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie8/js/bootstrap-ie9.js"></script>
     <![endif]-->
     <!--[if lte IE 8]>
       <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie8/js/bootstrap-ie8.js"></script>
     <![endif]-->
 ```
 
@@ -64,7 +63,7 @@ A. No. Instead the CSS is set to be fixed-width which makes things a lot easier.
 
 **Q. Where can I see a demo?**
 
-A. Right here: [http://coliff.github.io/bootstrap-ie8/test.htm](http://coliff.github.io/bootstrap-ie8/test.htm)
+A. Right here: [http://namiltd.github.io/bootstrap-ie8/test.htm](http://namiltd.github.io/bootstrap-ie8/test.htm)
 
 **Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
 
@@ -73,4 +72,4 @@ A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://ch
 ### Known Issues
 
 - There are various problems with the use of the JavaScript Bootstrap 4 in IE8. So far dropdowns and modal dialogs have been run.
-- View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
+- View a list of known issues at [https://github.com/namiltd/bootstrap-ie8/issues](https://github.com/namiltd/bootstrap-ie8/issues)
