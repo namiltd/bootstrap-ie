@@ -59,7 +59,7 @@ A. Maybe in a future release I'll provide SASS file (with comments).
 
 **Q. Do I need the RespondJS polyfill for IE8 like Bootstrap 3 uses?**
 
-A. No. Instead the CSS is set to be fixed-width which makes things a lot easier. You don't need to change your HTML markup, the CSS will take care of it as the (min-width:992px) media queries are all set.
+A. No, bootstrap-ie8 includes RespondJS polyfill for IE8.
 
 **Q. Where can I see a demo?**
 
