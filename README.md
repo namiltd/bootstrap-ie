@@ -18,12 +18,12 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if IE 9]>
       <link href="css/bootstrap-ie9.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie@4.1.200/js/bootstrap-ie9.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie/js/bootstrap-ie9.js"></script>
     <![endif]-->
     <!--[if lte IE 8]>
       <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie@4.1.200/js/bootstrap-ie8.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/namiltd/bootstrap-ie/js/bootstrap-ie8.js"></script>
     <![endif]-->
 ```
 
@@ -68,7 +68,7 @@ A. Right here: [http://namiltd.github.io/bootstrap-ie/test.htm](http://namiltd.g
 
 **Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
 
-A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://chrome.google.com/webstore/detail/multi-browser-screenshots/dhaknibfbngnmflbejdkliedmjmbjojk) to see screenshots of any webpage.
+A. You could use free [Multi-Browser Screenshots Chrome Extension](https://chrome.google.com/webstore/detail/multi-browser-screenshots/dhaknibfbngnmflbejdkliedmjmbjojk) to see screenshots of any webpage.
 
 ### Known Issues
 
