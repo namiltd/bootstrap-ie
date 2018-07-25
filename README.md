@@ -48,7 +48,7 @@ IE8 will load the latest compatible version of jQuery and the unminified Bootstr
 
 Prefer to install via [NPM](https://www.npmjs.com/package/bootstrap-ie)? No problem...
 
-`npm install bootstrap-ie8`
+`npm install bootstrap-ie`
 
 ### FAQS
 
