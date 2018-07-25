@@ -33,16 +33,22 @@ If you are using the bootstrap.js code add the following to the footer:
   <!--[if gte IE 9]><!-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
   <![endif]-->
 ```
 
 This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
 IE8 will load the latest compatible version of jQuery and the unminified Bootstrap JS (the minified version causes an error).
+
+#### Install via NPM
+
+Prefer to install via [NPM](https://www.npmjs.com/package/bootstrap-ie)? No problem...
+
+`npm install bootstrap-ie8`
 
 ### FAQS
 

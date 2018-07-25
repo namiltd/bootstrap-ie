@@ -14,6 +14,7 @@
     "declaration-empty-line-before": null,
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
+    "function-blacklist": ["linear-gradient"],
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "length-zero-no-unit": true,
@@ -27,12 +28,14 @@
     "media-feature-name-no-unknown": [true, {
       "ignoreMediaFeatureNames": ["prefers-reduced-motion"]
     }],
+    "property-blacklist": ["align-self", "flex", "flex-wrap", "order"],
     "rule-empty-line-before": null,
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never-single-line",
+    "selector-pseudo-class-blacklist": ["valid", "invalid", "required"],
     "selector-max-attribute": 2,
     "selector-max-class": 4,
     "selector-max-combinators": 4,
