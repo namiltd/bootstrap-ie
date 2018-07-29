@@ -282,12 +282,6 @@ fieldset[disabled] .btn {
 .custom-control-input {
   position: relative;
 }
-.text-black-50 {
-  filter:alpha(opacity=50);
-}
-.text-white-50{
-  filter:alpha(opacity=50);
-}
 .collapse {
   display:none;
 }
