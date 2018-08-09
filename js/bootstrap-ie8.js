@@ -172,14 +172,14 @@ if (!window.Node){
             setClass();
         };
         domTokenList.add=function(){
-            var args=[].slice.call(arguments)
+            var args=[].slice.call(arguments);
             for (var i=0,l=args.length;i<l;i++){
                 if (domTokenList.indexOf(args[i])===-1) domTokenList.push(args[i])
             };
             setClass();
         };
         domTokenList.remove=function(){
-            var args=[].slice.call(arguments)
+            var args=[].slice.call(arguments);
             for (var i=0,l=args.length;i<l;i++){
                 if (domTokenList.indexOf(args[i])!==-1) domTokenList.splice(domTokenList.indexOf(args[i]),1);
             };
