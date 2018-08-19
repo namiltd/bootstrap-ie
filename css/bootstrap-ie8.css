@@ -276,6 +276,9 @@ fieldset[disabled] .btn {
 .modal-content {
   border:1px solid #ddd;
 }
+.modal-footer {
+  text-align: right;
+}
 .list-group-item {
   border: 1px solid #ddd;
 }

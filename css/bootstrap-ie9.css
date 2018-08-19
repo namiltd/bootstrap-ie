@@ -233,6 +233,9 @@ aside {
 .breadcrumb-item {
   display: inline-block;
 }
+.modal-footer {
+  text-align: right;
+}
 .img-fluid[src$=".svg"] {
   width: 100%;
 }
