@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-ie",
-  "version": "4.1.303",
+  "version": "4.1.304",
   "description": "Bootstrap 4 compatibility module for IE8 and IE9",
   "main": "css/bootstrap-ie8.css",
   "devDependencies": {
