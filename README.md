@@ -2,6 +2,7 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/namiltd)
 [![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie.svg)](https://www.npmjs.com/package/bootstrap-ie)
 [![](https://data.jsdelivr.com/v1/package/gh/namiltd/bootstrap-ie/badge)](https://www.jsdelivr.com/package/gh/namiltd/bootstrap-ie)
+[![github-stars-image](https://img.shields.io/github/stars/namiltd/bootstrap-ie.svg?label=github%20stars)](https://github.com/namiltd/bootstrap-ie)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 # Bootstrap 4 compatibility module for IE8 and IE9
@@ -32,7 +33,7 @@ If you are using the bootstrap.js code add the following to the footer:
 ```html
   <!--[if gte IE 9]><!-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!--<![endif]-->
   <!--[if lte IE 8]>
