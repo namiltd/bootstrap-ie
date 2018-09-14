@@ -1,0 +1,19 @@
+{
+  "name": "namiltd/bootstrap-ie",
+  "description": "Bootstrap 4 compatibility module for IE8 and IE9",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mieczys³aw Nalewaj",
+      "email": "namiltd@yahoo.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/namiltd/bootstrap-ie/issues",
+    "docs": "https://github.com/namiltd/bootstrap-ie#readme"
+  },
+  "require": {
+    "twbs/bootstrap": "4.1.3"
+  }
+}
