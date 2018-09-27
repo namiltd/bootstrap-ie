@@ -14,7 +14,7 @@ Several quick start options are available:
 - Download the latest release from https://github.com/namiltd/bootstrap-ie/releases
 - Clone the repo `git clone https://github.com/namiltd/bootstrap-ie.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-ie) `npm install bootstrap-ie`
-- Install wuth [yarn](https://yarnpkg.com/en/package/bootstrap-ie) `yarn add bootstrap-ie`
+- Install with [yarn](https://yarnpkg.com/en/package/bootstrap-ie) `yarn add bootstrap-ie`
 - Install with [Composer](https://getcomposer.org/) `composer require namiltd/bootstrap-ie`
 
 ### Usage
