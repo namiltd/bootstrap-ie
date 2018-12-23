@@ -9,6 +9,14 @@
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill HTML5 element support.
 
+### Quick start
+Several quick start options are available:
+- Download the latest release from https://github.com/namiltd/bootstrap-ie/releases
+- Clone the repo `git clone https://github.com/namiltd/bootstrap-ie.git`
+- Install with [npm](https://www.npmjs.com/package/bootstrap-ie) `npm install bootstrap-ie`
+- Install with [yarn](https://yarnpkg.com/en/package/bootstrap-ie) `yarn add bootstrap-ie`
+- Install with [Composer](https://getcomposer.org/) `composer require namiltd/bootstrap-ie`
+
 ### Usage
 
 1.  Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
@@ -33,23 +41,17 @@ If you are using the bootstrap.js code add the following to the footer:
 ```html
   <!--[if gte IE 9]><!-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.js"></script>
   <![endif]-->
 ```
 
 This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
 IE8 will load the latest compatible version of jQuery and the unminified Bootstrap JS (the minified version causes an error).
-
-#### Install via NPM
-
-Prefer to install via [NPM](https://www.npmjs.com/package/bootstrap-ie)? No problem...
-
-`npm install bootstrap-ie`
 
 ### FAQS
 
