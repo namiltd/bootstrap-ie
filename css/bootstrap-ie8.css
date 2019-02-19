@@ -479,3 +479,7 @@ fieldset[disabled] .btn {
     width: 100%;
   }
 }
+.list-group-horizontal,
+.list-group-horizontal .list-group-item {
+  float: left;
+}

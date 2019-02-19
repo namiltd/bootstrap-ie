@@ -242,3 +242,7 @@ aside {
 .custom-switch .custom-control-input:checked ~ .custom-control-label:after {
   -ms-transform: translateX(0.75rem);
 }
+.list-group-horizontal,
+.list-group-horizontal .list-group-item {
+  float: left;
+}
